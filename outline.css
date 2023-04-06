@@ -1,0 +1,114 @@
+body {
+    background-color: #582C83;
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.main-container {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+}
+
+.header {
+    height: 90px;
+    flex-direction: row;
+    display: flex;
+    text-align: end;
+}
+
+#container-h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+#arca-logo {
+    justify-self: flex-start;
+    position: absolute;
+    height: 90px;
+    object-fit: cover;
+}
+
+.course-overview, .course-schedule, .course-instructor,
+.course-outline {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #caac00;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#content-paragraph, #instructor-paragraph {
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+    line-height: 2rem;
+}
+
+.instructor-info {
+    display: flex;
+    flex-direction: row;
+}
+.instructor-img-class {
+    width: 50%;
+}
+#container-h2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#instructor-img {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.instructor-p-class {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#container-h3 {
+    margin-top: 20px;
+}
+#container-h4 {
+    margin-top: 20px;
+}
+.course-outline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weekly-container {
+    border-style: solid;
+    border-color: #582C83;
+    border-width: 1px;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.outline-list {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2rem;
+    text-align: left;
+}
+.content-paragraph {
+}
+ul {
+    list-style-image: url("images/list.jpg");
+}
+
+
+@media print {  
+    * {
+        background-color: yellow;
+    }
+}
